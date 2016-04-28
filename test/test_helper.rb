@@ -1,0 +1,16 @@
+require 'minitest/autorun'
+
+require_relative '../rps'
+require_relative '../lib/game/announcer'
+require_relative '../lib/game/game_engine'
+require_relative '../lib/game/game_logic'
+require_relative '../lib/game/scorekeeper'
+require_relative '../lib/game/strategy'
+require_relative '../lib/game/strategies/favorite_move'
+require_relative '../lib/game/strategies/last_move'
+require_relative '../lib/models/paper'
+require_relative '../lib/models/player'
+require_relative '../lib/models/rock'
+require_relative '../lib/models/scissors'
+
+require 'mocha/mini_test'
